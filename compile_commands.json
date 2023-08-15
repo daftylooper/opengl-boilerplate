@@ -1,0 +1,57 @@
+[
+{
+  "directory": "/home/daftylooper/Desktop/C++/opengl/build",
+  "command": "/usr/bin/g++  -I/home/daftylooper/Desktop/C++/opengl/glad -I/home/daftylooper/Desktop/C++/opengl/src/vendor -g -o CMakeFiles/opengl_tutorial.dir/src/main.cpp.o -c /home/daftylooper/Desktop/C++/opengl/src/main.cpp",
+  "file": "/home/daftylooper/Desktop/C++/opengl/src/main.cpp"
+},
+{
+  "directory": "/home/daftylooper/Desktop/C++/opengl/build",
+  "command": "/usr/bin/g++  -I/home/daftylooper/Desktop/C++/opengl/glad -I/home/daftylooper/Desktop/C++/opengl/src/vendor -g -o CMakeFiles/opengl_tutorial.dir/src/Renderer.cpp.o -c /home/daftylooper/Desktop/C++/opengl/src/Renderer.cpp",
+  "file": "/home/daftylooper/Desktop/C++/opengl/src/Renderer.cpp"
+},
+{
+  "directory": "/home/daftylooper/Desktop/C++/opengl/build",
+  "command": "/usr/bin/g++  -I/home/daftylooper/Desktop/C++/opengl/glad -I/home/daftylooper/Desktop/C++/opengl/src/vendor -g -o CMakeFiles/opengl_tutorial.dir/src/VertexBuffer.cpp.o -c /home/daftylooper/Desktop/C++/opengl/src/VertexBuffer.cpp",
+  "file": "/home/daftylooper/Desktop/C++/opengl/src/VertexBuffer.cpp"
+},
+{
+  "directory": "/home/daftylooper/Desktop/C++/opengl/build",
+  "command": "/usr/bin/g++  -I/home/daftylooper/Desktop/C++/opengl/glad -I/home/daftylooper/Desktop/C++/opengl/src/vendor -g -o CMakeFiles/opengl_tutorial.dir/src/IndexBuffer.cpp.o -c /home/daftylooper/Desktop/C++/opengl/src/IndexBuffer.cpp",
+  "file": "/home/daftylooper/Desktop/C++/opengl/src/IndexBuffer.cpp"
+},
+{
+  "directory": "/home/daftylooper/Desktop/C++/opengl/build",
+  "command": "/usr/bin/g++  -I/home/daftylooper/Desktop/C++/opengl/glad -I/home/daftylooper/Desktop/C++/opengl/src/vendor -g -o CMakeFiles/opengl_tutorial.dir/src/VertexArray.cpp.o -c /home/daftylooper/Desktop/C++/opengl/src/VertexArray.cpp",
+  "file": "/home/daftylooper/Desktop/C++/opengl/src/VertexArray.cpp"
+},
+{
+  "directory": "/home/daftylooper/Desktop/C++/opengl/build",
+  "command": "/usr/bin/g++  -I/home/daftylooper/Desktop/C++/opengl/glad -I/home/daftylooper/Desktop/C++/opengl/src/vendor -g -o CMakeFiles/opengl_tutorial.dir/src/Shader.cpp.o -c /home/daftylooper/Desktop/C++/opengl/src/Shader.cpp",
+  "file": "/home/daftylooper/Desktop/C++/opengl/src/Shader.cpp"
+},
+{
+  "directory": "/home/daftylooper/Desktop/C++/opengl/build",
+  "command": "/usr/bin/g++  -I/home/daftylooper/Desktop/C++/opengl/glad -I/home/daftylooper/Desktop/C++/opengl/src/vendor -g -o CMakeFiles/opengl_tutorial.dir/src/Macros.cpp.o -c /home/daftylooper/Desktop/C++/opengl/src/Macros.cpp",
+  "file": "/home/daftylooper/Desktop/C++/opengl/src/Macros.cpp"
+},
+{
+  "directory": "/home/daftylooper/Desktop/C++/opengl/build",
+  "command": "/usr/bin/g++  -I/home/daftylooper/Desktop/C++/opengl/glad -I/home/daftylooper/Desktop/C++/opengl/src/vendor -g -o CMakeFiles/opengl_tutorial.dir/src/Texture.cpp.o -c /home/daftylooper/Desktop/C++/opengl/src/Texture.cpp",
+  "file": "/home/daftylooper/Desktop/C++/opengl/src/Texture.cpp"
+},
+{
+  "directory": "/home/daftylooper/Desktop/C++/opengl/build",
+  "command": "/usr/bin/g++  -I/home/daftylooper/Desktop/C++/opengl/glad -I/home/daftylooper/Desktop/C++/opengl/src/vendor -g -o CMakeFiles/opengl_tutorial.dir/src/Camera.cpp.o -c /home/daftylooper/Desktop/C++/opengl/src/Camera.cpp",
+  "file": "/home/daftylooper/Desktop/C++/opengl/src/Camera.cpp"
+},
+{
+  "directory": "/home/daftylooper/Desktop/C++/opengl/build",
+  "command": "/usr/bin/g++  -I/home/daftylooper/Desktop/C++/opengl/glad -I/home/daftylooper/Desktop/C++/opengl/src/vendor -g -o CMakeFiles/opengl_tutorial.dir/src/vendor/stb_image/stb_image.cpp.o -c /home/daftylooper/Desktop/C++/opengl/src/vendor/stb_image/stb_image.cpp",
+  "file": "/home/daftylooper/Desktop/C++/opengl/src/vendor/stb_image/stb_image.cpp"
+},
+{
+  "directory": "/home/daftylooper/Desktop/C++/opengl/build",
+  "command": "/usr/bin/gcc  -I/home/daftylooper/Desktop/C++/opengl/glad -I/home/daftylooper/Desktop/C++/opengl/src/vendor -g -o CMakeFiles/opengl_tutorial.dir/include/glad.c.o -c /home/daftylooper/Desktop/C++/opengl/include/glad.c",
+  "file": "/home/daftylooper/Desktop/C++/opengl/include/glad.c"
+}
+]
