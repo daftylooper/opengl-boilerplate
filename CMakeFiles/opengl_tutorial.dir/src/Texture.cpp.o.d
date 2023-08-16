@@ -1,8 +1,8 @@
 CMakeFiles/opengl_tutorial.dir/src/Texture.cpp.o: \
- /home/daftylooper/Desktop/C++/opengl/src/Texture.cpp \
+ /home/daftylooper/Desktop/C++/daftycraft/src/Texture.cpp \
  /usr/include/stdc-predef.h \
- /home/daftylooper/Desktop/C++/opengl/src/Texture.h \
- /home/daftylooper/Desktop/C++/opengl/src/Macros.h \
+ /home/daftylooper/Desktop/C++/daftycraft/src/Texture.h \
+ /home/daftylooper/Desktop/C++/daftycraft/src/Macros.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -132,7 +132,7 @@ CMakeFiles/opengl_tutorial.dir/src/Texture.cpp.o: \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc /usr/include/c++/11/cassert \
  /usr/include/assert.h \
- /home/daftylooper/Desktop/C++/opengl/src/../include/glad/glad.h \
+ /home/daftylooper/Desktop/C++/daftycraft/src/../include/glad/glad.h \
  /usr/include/KHR/khrplatform.h /usr/include/GLFW/glfw3.h \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/exception \
@@ -156,5 +156,5 @@ CMakeFiles/opengl_tutorial.dir/src/Texture.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/daftylooper/Desktop/C++/opengl/src/vendor/stb_image/stb_image.h \
+ /home/daftylooper/Desktop/C++/daftycraft/src/vendor/stb_image/stb_image.h \
  /usr/include/c++/11/stdlib.h

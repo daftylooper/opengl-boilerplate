@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/daftylooper/Desktop/C++/opengl
+CMAKE_SOURCE_DIR = /home/daftylooper/Desktop/C++/daftycraft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/daftylooper/Desktop/C++/opengl/build
+CMAKE_BINARY_DIR = /home/daftylooper/Desktop/C++/daftycraft/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/opengl_tutorial.dir/depend.make
@@ -72,156 +72,170 @@ include CMakeFiles/opengl_tutorial.dir/flags.make
 CMakeFiles/opengl_tutorial.dir/src/main.cpp.o: CMakeFiles/opengl_tutorial.dir/flags.make
 CMakeFiles/opengl_tutorial.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/opengl_tutorial.dir/src/main.cpp.o: CMakeFiles/opengl_tutorial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daftylooper/Desktop/C++/opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/opengl_tutorial.dir/src/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl_tutorial.dir/src/main.cpp.o -MF CMakeFiles/opengl_tutorial.dir/src/main.cpp.o.d -o CMakeFiles/opengl_tutorial.dir/src/main.cpp.o -c /home/daftylooper/Desktop/C++/opengl/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daftylooper/Desktop/C++/daftycraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/opengl_tutorial.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl_tutorial.dir/src/main.cpp.o -MF CMakeFiles/opengl_tutorial.dir/src/main.cpp.o.d -o CMakeFiles/opengl_tutorial.dir/src/main.cpp.o -c /home/daftylooper/Desktop/C++/daftycraft/src/main.cpp
 
 CMakeFiles/opengl_tutorial.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opengl_tutorial.dir/src/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daftylooper/Desktop/C++/opengl/src/main.cpp > CMakeFiles/opengl_tutorial.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daftylooper/Desktop/C++/daftycraft/src/main.cpp > CMakeFiles/opengl_tutorial.dir/src/main.cpp.i
 
 CMakeFiles/opengl_tutorial.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opengl_tutorial.dir/src/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daftylooper/Desktop/C++/opengl/src/main.cpp -o CMakeFiles/opengl_tutorial.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daftylooper/Desktop/C++/daftycraft/src/main.cpp -o CMakeFiles/opengl_tutorial.dir/src/main.cpp.s
 
 CMakeFiles/opengl_tutorial.dir/src/Renderer.cpp.o: CMakeFiles/opengl_tutorial.dir/flags.make
 CMakeFiles/opengl_tutorial.dir/src/Renderer.cpp.o: ../src/Renderer.cpp
 CMakeFiles/opengl_tutorial.dir/src/Renderer.cpp.o: CMakeFiles/opengl_tutorial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daftylooper/Desktop/C++/opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/opengl_tutorial.dir/src/Renderer.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl_tutorial.dir/src/Renderer.cpp.o -MF CMakeFiles/opengl_tutorial.dir/src/Renderer.cpp.o.d -o CMakeFiles/opengl_tutorial.dir/src/Renderer.cpp.o -c /home/daftylooper/Desktop/C++/opengl/src/Renderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daftylooper/Desktop/C++/daftycraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/opengl_tutorial.dir/src/Renderer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl_tutorial.dir/src/Renderer.cpp.o -MF CMakeFiles/opengl_tutorial.dir/src/Renderer.cpp.o.d -o CMakeFiles/opengl_tutorial.dir/src/Renderer.cpp.o -c /home/daftylooper/Desktop/C++/daftycraft/src/Renderer.cpp
 
 CMakeFiles/opengl_tutorial.dir/src/Renderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opengl_tutorial.dir/src/Renderer.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daftylooper/Desktop/C++/opengl/src/Renderer.cpp > CMakeFiles/opengl_tutorial.dir/src/Renderer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daftylooper/Desktop/C++/daftycraft/src/Renderer.cpp > CMakeFiles/opengl_tutorial.dir/src/Renderer.cpp.i
 
 CMakeFiles/opengl_tutorial.dir/src/Renderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opengl_tutorial.dir/src/Renderer.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daftylooper/Desktop/C++/opengl/src/Renderer.cpp -o CMakeFiles/opengl_tutorial.dir/src/Renderer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daftylooper/Desktop/C++/daftycraft/src/Renderer.cpp -o CMakeFiles/opengl_tutorial.dir/src/Renderer.cpp.s
 
 CMakeFiles/opengl_tutorial.dir/src/VertexBuffer.cpp.o: CMakeFiles/opengl_tutorial.dir/flags.make
 CMakeFiles/opengl_tutorial.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
 CMakeFiles/opengl_tutorial.dir/src/VertexBuffer.cpp.o: CMakeFiles/opengl_tutorial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daftylooper/Desktop/C++/opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/opengl_tutorial.dir/src/VertexBuffer.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl_tutorial.dir/src/VertexBuffer.cpp.o -MF CMakeFiles/opengl_tutorial.dir/src/VertexBuffer.cpp.o.d -o CMakeFiles/opengl_tutorial.dir/src/VertexBuffer.cpp.o -c /home/daftylooper/Desktop/C++/opengl/src/VertexBuffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daftylooper/Desktop/C++/daftycraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/opengl_tutorial.dir/src/VertexBuffer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl_tutorial.dir/src/VertexBuffer.cpp.o -MF CMakeFiles/opengl_tutorial.dir/src/VertexBuffer.cpp.o.d -o CMakeFiles/opengl_tutorial.dir/src/VertexBuffer.cpp.o -c /home/daftylooper/Desktop/C++/daftycraft/src/VertexBuffer.cpp
 
 CMakeFiles/opengl_tutorial.dir/src/VertexBuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opengl_tutorial.dir/src/VertexBuffer.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daftylooper/Desktop/C++/opengl/src/VertexBuffer.cpp > CMakeFiles/opengl_tutorial.dir/src/VertexBuffer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daftylooper/Desktop/C++/daftycraft/src/VertexBuffer.cpp > CMakeFiles/opengl_tutorial.dir/src/VertexBuffer.cpp.i
 
 CMakeFiles/opengl_tutorial.dir/src/VertexBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opengl_tutorial.dir/src/VertexBuffer.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daftylooper/Desktop/C++/opengl/src/VertexBuffer.cpp -o CMakeFiles/opengl_tutorial.dir/src/VertexBuffer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daftylooper/Desktop/C++/daftycraft/src/VertexBuffer.cpp -o CMakeFiles/opengl_tutorial.dir/src/VertexBuffer.cpp.s
 
 CMakeFiles/opengl_tutorial.dir/src/IndexBuffer.cpp.o: CMakeFiles/opengl_tutorial.dir/flags.make
 CMakeFiles/opengl_tutorial.dir/src/IndexBuffer.cpp.o: ../src/IndexBuffer.cpp
 CMakeFiles/opengl_tutorial.dir/src/IndexBuffer.cpp.o: CMakeFiles/opengl_tutorial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daftylooper/Desktop/C++/opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/opengl_tutorial.dir/src/IndexBuffer.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl_tutorial.dir/src/IndexBuffer.cpp.o -MF CMakeFiles/opengl_tutorial.dir/src/IndexBuffer.cpp.o.d -o CMakeFiles/opengl_tutorial.dir/src/IndexBuffer.cpp.o -c /home/daftylooper/Desktop/C++/opengl/src/IndexBuffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daftylooper/Desktop/C++/daftycraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/opengl_tutorial.dir/src/IndexBuffer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl_tutorial.dir/src/IndexBuffer.cpp.o -MF CMakeFiles/opengl_tutorial.dir/src/IndexBuffer.cpp.o.d -o CMakeFiles/opengl_tutorial.dir/src/IndexBuffer.cpp.o -c /home/daftylooper/Desktop/C++/daftycraft/src/IndexBuffer.cpp
 
 CMakeFiles/opengl_tutorial.dir/src/IndexBuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opengl_tutorial.dir/src/IndexBuffer.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daftylooper/Desktop/C++/opengl/src/IndexBuffer.cpp > CMakeFiles/opengl_tutorial.dir/src/IndexBuffer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daftylooper/Desktop/C++/daftycraft/src/IndexBuffer.cpp > CMakeFiles/opengl_tutorial.dir/src/IndexBuffer.cpp.i
 
 CMakeFiles/opengl_tutorial.dir/src/IndexBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opengl_tutorial.dir/src/IndexBuffer.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daftylooper/Desktop/C++/opengl/src/IndexBuffer.cpp -o CMakeFiles/opengl_tutorial.dir/src/IndexBuffer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daftylooper/Desktop/C++/daftycraft/src/IndexBuffer.cpp -o CMakeFiles/opengl_tutorial.dir/src/IndexBuffer.cpp.s
 
 CMakeFiles/opengl_tutorial.dir/src/VertexArray.cpp.o: CMakeFiles/opengl_tutorial.dir/flags.make
 CMakeFiles/opengl_tutorial.dir/src/VertexArray.cpp.o: ../src/VertexArray.cpp
 CMakeFiles/opengl_tutorial.dir/src/VertexArray.cpp.o: CMakeFiles/opengl_tutorial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daftylooper/Desktop/C++/opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/opengl_tutorial.dir/src/VertexArray.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl_tutorial.dir/src/VertexArray.cpp.o -MF CMakeFiles/opengl_tutorial.dir/src/VertexArray.cpp.o.d -o CMakeFiles/opengl_tutorial.dir/src/VertexArray.cpp.o -c /home/daftylooper/Desktop/C++/opengl/src/VertexArray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daftylooper/Desktop/C++/daftycraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/opengl_tutorial.dir/src/VertexArray.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl_tutorial.dir/src/VertexArray.cpp.o -MF CMakeFiles/opengl_tutorial.dir/src/VertexArray.cpp.o.d -o CMakeFiles/opengl_tutorial.dir/src/VertexArray.cpp.o -c /home/daftylooper/Desktop/C++/daftycraft/src/VertexArray.cpp
 
 CMakeFiles/opengl_tutorial.dir/src/VertexArray.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opengl_tutorial.dir/src/VertexArray.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daftylooper/Desktop/C++/opengl/src/VertexArray.cpp > CMakeFiles/opengl_tutorial.dir/src/VertexArray.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daftylooper/Desktop/C++/daftycraft/src/VertexArray.cpp > CMakeFiles/opengl_tutorial.dir/src/VertexArray.cpp.i
 
 CMakeFiles/opengl_tutorial.dir/src/VertexArray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opengl_tutorial.dir/src/VertexArray.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daftylooper/Desktop/C++/opengl/src/VertexArray.cpp -o CMakeFiles/opengl_tutorial.dir/src/VertexArray.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daftylooper/Desktop/C++/daftycraft/src/VertexArray.cpp -o CMakeFiles/opengl_tutorial.dir/src/VertexArray.cpp.s
 
 CMakeFiles/opengl_tutorial.dir/src/Shader.cpp.o: CMakeFiles/opengl_tutorial.dir/flags.make
 CMakeFiles/opengl_tutorial.dir/src/Shader.cpp.o: ../src/Shader.cpp
 CMakeFiles/opengl_tutorial.dir/src/Shader.cpp.o: CMakeFiles/opengl_tutorial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daftylooper/Desktop/C++/opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/opengl_tutorial.dir/src/Shader.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl_tutorial.dir/src/Shader.cpp.o -MF CMakeFiles/opengl_tutorial.dir/src/Shader.cpp.o.d -o CMakeFiles/opengl_tutorial.dir/src/Shader.cpp.o -c /home/daftylooper/Desktop/C++/opengl/src/Shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daftylooper/Desktop/C++/daftycraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/opengl_tutorial.dir/src/Shader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl_tutorial.dir/src/Shader.cpp.o -MF CMakeFiles/opengl_tutorial.dir/src/Shader.cpp.o.d -o CMakeFiles/opengl_tutorial.dir/src/Shader.cpp.o -c /home/daftylooper/Desktop/C++/daftycraft/src/Shader.cpp
 
 CMakeFiles/opengl_tutorial.dir/src/Shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opengl_tutorial.dir/src/Shader.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daftylooper/Desktop/C++/opengl/src/Shader.cpp > CMakeFiles/opengl_tutorial.dir/src/Shader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daftylooper/Desktop/C++/daftycraft/src/Shader.cpp > CMakeFiles/opengl_tutorial.dir/src/Shader.cpp.i
 
 CMakeFiles/opengl_tutorial.dir/src/Shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opengl_tutorial.dir/src/Shader.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daftylooper/Desktop/C++/opengl/src/Shader.cpp -o CMakeFiles/opengl_tutorial.dir/src/Shader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daftylooper/Desktop/C++/daftycraft/src/Shader.cpp -o CMakeFiles/opengl_tutorial.dir/src/Shader.cpp.s
 
 CMakeFiles/opengl_tutorial.dir/src/Macros.cpp.o: CMakeFiles/opengl_tutorial.dir/flags.make
 CMakeFiles/opengl_tutorial.dir/src/Macros.cpp.o: ../src/Macros.cpp
 CMakeFiles/opengl_tutorial.dir/src/Macros.cpp.o: CMakeFiles/opengl_tutorial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daftylooper/Desktop/C++/opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/opengl_tutorial.dir/src/Macros.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl_tutorial.dir/src/Macros.cpp.o -MF CMakeFiles/opengl_tutorial.dir/src/Macros.cpp.o.d -o CMakeFiles/opengl_tutorial.dir/src/Macros.cpp.o -c /home/daftylooper/Desktop/C++/opengl/src/Macros.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daftylooper/Desktop/C++/daftycraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/opengl_tutorial.dir/src/Macros.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl_tutorial.dir/src/Macros.cpp.o -MF CMakeFiles/opengl_tutorial.dir/src/Macros.cpp.o.d -o CMakeFiles/opengl_tutorial.dir/src/Macros.cpp.o -c /home/daftylooper/Desktop/C++/daftycraft/src/Macros.cpp
 
 CMakeFiles/opengl_tutorial.dir/src/Macros.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opengl_tutorial.dir/src/Macros.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daftylooper/Desktop/C++/opengl/src/Macros.cpp > CMakeFiles/opengl_tutorial.dir/src/Macros.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daftylooper/Desktop/C++/daftycraft/src/Macros.cpp > CMakeFiles/opengl_tutorial.dir/src/Macros.cpp.i
 
 CMakeFiles/opengl_tutorial.dir/src/Macros.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opengl_tutorial.dir/src/Macros.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daftylooper/Desktop/C++/opengl/src/Macros.cpp -o CMakeFiles/opengl_tutorial.dir/src/Macros.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daftylooper/Desktop/C++/daftycraft/src/Macros.cpp -o CMakeFiles/opengl_tutorial.dir/src/Macros.cpp.s
 
 CMakeFiles/opengl_tutorial.dir/src/Texture.cpp.o: CMakeFiles/opengl_tutorial.dir/flags.make
 CMakeFiles/opengl_tutorial.dir/src/Texture.cpp.o: ../src/Texture.cpp
 CMakeFiles/opengl_tutorial.dir/src/Texture.cpp.o: CMakeFiles/opengl_tutorial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daftylooper/Desktop/C++/opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/opengl_tutorial.dir/src/Texture.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl_tutorial.dir/src/Texture.cpp.o -MF CMakeFiles/opengl_tutorial.dir/src/Texture.cpp.o.d -o CMakeFiles/opengl_tutorial.dir/src/Texture.cpp.o -c /home/daftylooper/Desktop/C++/opengl/src/Texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daftylooper/Desktop/C++/daftycraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/opengl_tutorial.dir/src/Texture.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl_tutorial.dir/src/Texture.cpp.o -MF CMakeFiles/opengl_tutorial.dir/src/Texture.cpp.o.d -o CMakeFiles/opengl_tutorial.dir/src/Texture.cpp.o -c /home/daftylooper/Desktop/C++/daftycraft/src/Texture.cpp
 
 CMakeFiles/opengl_tutorial.dir/src/Texture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opengl_tutorial.dir/src/Texture.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daftylooper/Desktop/C++/opengl/src/Texture.cpp > CMakeFiles/opengl_tutorial.dir/src/Texture.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daftylooper/Desktop/C++/daftycraft/src/Texture.cpp > CMakeFiles/opengl_tutorial.dir/src/Texture.cpp.i
 
 CMakeFiles/opengl_tutorial.dir/src/Texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opengl_tutorial.dir/src/Texture.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daftylooper/Desktop/C++/opengl/src/Texture.cpp -o CMakeFiles/opengl_tutorial.dir/src/Texture.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daftylooper/Desktop/C++/daftycraft/src/Texture.cpp -o CMakeFiles/opengl_tutorial.dir/src/Texture.cpp.s
 
 CMakeFiles/opengl_tutorial.dir/src/Camera.cpp.o: CMakeFiles/opengl_tutorial.dir/flags.make
 CMakeFiles/opengl_tutorial.dir/src/Camera.cpp.o: ../src/Camera.cpp
 CMakeFiles/opengl_tutorial.dir/src/Camera.cpp.o: CMakeFiles/opengl_tutorial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daftylooper/Desktop/C++/opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/opengl_tutorial.dir/src/Camera.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl_tutorial.dir/src/Camera.cpp.o -MF CMakeFiles/opengl_tutorial.dir/src/Camera.cpp.o.d -o CMakeFiles/opengl_tutorial.dir/src/Camera.cpp.o -c /home/daftylooper/Desktop/C++/opengl/src/Camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daftylooper/Desktop/C++/daftycraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/opengl_tutorial.dir/src/Camera.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl_tutorial.dir/src/Camera.cpp.o -MF CMakeFiles/opengl_tutorial.dir/src/Camera.cpp.o.d -o CMakeFiles/opengl_tutorial.dir/src/Camera.cpp.o -c /home/daftylooper/Desktop/C++/daftycraft/src/Camera.cpp
 
 CMakeFiles/opengl_tutorial.dir/src/Camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opengl_tutorial.dir/src/Camera.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daftylooper/Desktop/C++/opengl/src/Camera.cpp > CMakeFiles/opengl_tutorial.dir/src/Camera.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daftylooper/Desktop/C++/daftycraft/src/Camera.cpp > CMakeFiles/opengl_tutorial.dir/src/Camera.cpp.i
 
 CMakeFiles/opengl_tutorial.dir/src/Camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opengl_tutorial.dir/src/Camera.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daftylooper/Desktop/C++/opengl/src/Camera.cpp -o CMakeFiles/opengl_tutorial.dir/src/Camera.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daftylooper/Desktop/C++/daftycraft/src/Camera.cpp -o CMakeFiles/opengl_tutorial.dir/src/Camera.cpp.s
+
+CMakeFiles/opengl_tutorial.dir/src/PerlinNoise.cpp.o: CMakeFiles/opengl_tutorial.dir/flags.make
+CMakeFiles/opengl_tutorial.dir/src/PerlinNoise.cpp.o: ../src/PerlinNoise.cpp
+CMakeFiles/opengl_tutorial.dir/src/PerlinNoise.cpp.o: CMakeFiles/opengl_tutorial.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daftylooper/Desktop/C++/daftycraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/opengl_tutorial.dir/src/PerlinNoise.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl_tutorial.dir/src/PerlinNoise.cpp.o -MF CMakeFiles/opengl_tutorial.dir/src/PerlinNoise.cpp.o.d -o CMakeFiles/opengl_tutorial.dir/src/PerlinNoise.cpp.o -c /home/daftylooper/Desktop/C++/daftycraft/src/PerlinNoise.cpp
+
+CMakeFiles/opengl_tutorial.dir/src/PerlinNoise.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opengl_tutorial.dir/src/PerlinNoise.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daftylooper/Desktop/C++/daftycraft/src/PerlinNoise.cpp > CMakeFiles/opengl_tutorial.dir/src/PerlinNoise.cpp.i
+
+CMakeFiles/opengl_tutorial.dir/src/PerlinNoise.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opengl_tutorial.dir/src/PerlinNoise.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daftylooper/Desktop/C++/daftycraft/src/PerlinNoise.cpp -o CMakeFiles/opengl_tutorial.dir/src/PerlinNoise.cpp.s
 
 CMakeFiles/opengl_tutorial.dir/src/vendor/stb_image/stb_image.cpp.o: CMakeFiles/opengl_tutorial.dir/flags.make
 CMakeFiles/opengl_tutorial.dir/src/vendor/stb_image/stb_image.cpp.o: ../src/vendor/stb_image/stb_image.cpp
 CMakeFiles/opengl_tutorial.dir/src/vendor/stb_image/stb_image.cpp.o: CMakeFiles/opengl_tutorial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daftylooper/Desktop/C++/opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/opengl_tutorial.dir/src/vendor/stb_image/stb_image.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl_tutorial.dir/src/vendor/stb_image/stb_image.cpp.o -MF CMakeFiles/opengl_tutorial.dir/src/vendor/stb_image/stb_image.cpp.o.d -o CMakeFiles/opengl_tutorial.dir/src/vendor/stb_image/stb_image.cpp.o -c /home/daftylooper/Desktop/C++/opengl/src/vendor/stb_image/stb_image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daftylooper/Desktop/C++/daftycraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/opengl_tutorial.dir/src/vendor/stb_image/stb_image.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl_tutorial.dir/src/vendor/stb_image/stb_image.cpp.o -MF CMakeFiles/opengl_tutorial.dir/src/vendor/stb_image/stb_image.cpp.o.d -o CMakeFiles/opengl_tutorial.dir/src/vendor/stb_image/stb_image.cpp.o -c /home/daftylooper/Desktop/C++/daftycraft/src/vendor/stb_image/stb_image.cpp
 
 CMakeFiles/opengl_tutorial.dir/src/vendor/stb_image/stb_image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opengl_tutorial.dir/src/vendor/stb_image/stb_image.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daftylooper/Desktop/C++/opengl/src/vendor/stb_image/stb_image.cpp > CMakeFiles/opengl_tutorial.dir/src/vendor/stb_image/stb_image.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daftylooper/Desktop/C++/daftycraft/src/vendor/stb_image/stb_image.cpp > CMakeFiles/opengl_tutorial.dir/src/vendor/stb_image/stb_image.cpp.i
 
 CMakeFiles/opengl_tutorial.dir/src/vendor/stb_image/stb_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opengl_tutorial.dir/src/vendor/stb_image/stb_image.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daftylooper/Desktop/C++/opengl/src/vendor/stb_image/stb_image.cpp -o CMakeFiles/opengl_tutorial.dir/src/vendor/stb_image/stb_image.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daftylooper/Desktop/C++/daftycraft/src/vendor/stb_image/stb_image.cpp -o CMakeFiles/opengl_tutorial.dir/src/vendor/stb_image/stb_image.cpp.s
 
 CMakeFiles/opengl_tutorial.dir/include/glad.c.o: CMakeFiles/opengl_tutorial.dir/flags.make
 CMakeFiles/opengl_tutorial.dir/include/glad.c.o: ../include/glad.c
 CMakeFiles/opengl_tutorial.dir/include/glad.c.o: CMakeFiles/opengl_tutorial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daftylooper/Desktop/C++/opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/opengl_tutorial.dir/include/glad.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/opengl_tutorial.dir/include/glad.c.o -MF CMakeFiles/opengl_tutorial.dir/include/glad.c.o.d -o CMakeFiles/opengl_tutorial.dir/include/glad.c.o -c /home/daftylooper/Desktop/C++/opengl/include/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daftylooper/Desktop/C++/daftycraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/opengl_tutorial.dir/include/glad.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/opengl_tutorial.dir/include/glad.c.o -MF CMakeFiles/opengl_tutorial.dir/include/glad.c.o.d -o CMakeFiles/opengl_tutorial.dir/include/glad.c.o -c /home/daftylooper/Desktop/C++/daftycraft/include/glad.c
 
 CMakeFiles/opengl_tutorial.dir/include/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/opengl_tutorial.dir/include/glad.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/daftylooper/Desktop/C++/opengl/include/glad.c > CMakeFiles/opengl_tutorial.dir/include/glad.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/daftylooper/Desktop/C++/daftycraft/include/glad.c > CMakeFiles/opengl_tutorial.dir/include/glad.c.i
 
 CMakeFiles/opengl_tutorial.dir/include/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/opengl_tutorial.dir/include/glad.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/daftylooper/Desktop/C++/opengl/include/glad.c -o CMakeFiles/opengl_tutorial.dir/include/glad.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/daftylooper/Desktop/C++/daftycraft/include/glad.c -o CMakeFiles/opengl_tutorial.dir/include/glad.c.s
 
 # Object files for target opengl_tutorial
 opengl_tutorial_OBJECTS = \
@@ -234,6 +248,7 @@ opengl_tutorial_OBJECTS = \
 "CMakeFiles/opengl_tutorial.dir/src/Macros.cpp.o" \
 "CMakeFiles/opengl_tutorial.dir/src/Texture.cpp.o" \
 "CMakeFiles/opengl_tutorial.dir/src/Camera.cpp.o" \
+"CMakeFiles/opengl_tutorial.dir/src/PerlinNoise.cpp.o" \
 "CMakeFiles/opengl_tutorial.dir/src/vendor/stb_image/stb_image.cpp.o" \
 "CMakeFiles/opengl_tutorial.dir/include/glad.c.o"
 
@@ -249,13 +264,14 @@ opengl_tutorial: CMakeFiles/opengl_tutorial.dir/src/Shader.cpp.o
 opengl_tutorial: CMakeFiles/opengl_tutorial.dir/src/Macros.cpp.o
 opengl_tutorial: CMakeFiles/opengl_tutorial.dir/src/Texture.cpp.o
 opengl_tutorial: CMakeFiles/opengl_tutorial.dir/src/Camera.cpp.o
+opengl_tutorial: CMakeFiles/opengl_tutorial.dir/src/PerlinNoise.cpp.o
 opengl_tutorial: CMakeFiles/opengl_tutorial.dir/src/vendor/stb_image/stb_image.cpp.o
 opengl_tutorial: CMakeFiles/opengl_tutorial.dir/include/glad.c.o
 opengl_tutorial: CMakeFiles/opengl_tutorial.dir/build.make
 opengl_tutorial: /usr/lib/x86_64-linux-gnu/libGLX.so
 opengl_tutorial: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 opengl_tutorial: CMakeFiles/opengl_tutorial.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/daftylooper/Desktop/C++/opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable opengl_tutorial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/daftylooper/Desktop/C++/daftycraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable opengl_tutorial"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opengl_tutorial.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -267,6 +283,6 @@ CMakeFiles/opengl_tutorial.dir/clean:
 .PHONY : CMakeFiles/opengl_tutorial.dir/clean
 
 CMakeFiles/opengl_tutorial.dir/depend:
-	cd /home/daftylooper/Desktop/C++/opengl/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daftylooper/Desktop/C++/opengl /home/daftylooper/Desktop/C++/opengl /home/daftylooper/Desktop/C++/opengl/build /home/daftylooper/Desktop/C++/opengl/build /home/daftylooper/Desktop/C++/opengl/build/CMakeFiles/opengl_tutorial.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/daftylooper/Desktop/C++/daftycraft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daftylooper/Desktop/C++/daftycraft /home/daftylooper/Desktop/C++/daftycraft /home/daftylooper/Desktop/C++/daftycraft/build /home/daftylooper/Desktop/C++/daftycraft/build /home/daftylooper/Desktop/C++/daftycraft/build/CMakeFiles/opengl_tutorial.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/opengl_tutorial.dir/depend
 

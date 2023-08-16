@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/opengl_tutorial.dir/src/IndexBuffer.cpp.o.d"
   "CMakeFiles/opengl_tutorial.dir/src/Macros.cpp.o"
   "CMakeFiles/opengl_tutorial.dir/src/Macros.cpp.o.d"
+  "CMakeFiles/opengl_tutorial.dir/src/PerlinNoise.cpp.o"
+  "CMakeFiles/opengl_tutorial.dir/src/PerlinNoise.cpp.o.d"
   "CMakeFiles/opengl_tutorial.dir/src/Renderer.cpp.o"
   "CMakeFiles/opengl_tutorial.dir/src/Renderer.cpp.o.d"
   "CMakeFiles/opengl_tutorial.dir/src/Shader.cpp.o"

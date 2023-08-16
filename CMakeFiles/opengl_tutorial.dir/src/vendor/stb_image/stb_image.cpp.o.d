@@ -1,7 +1,7 @@
 CMakeFiles/opengl_tutorial.dir/src/vendor/stb_image/stb_image.cpp.o: \
- /home/daftylooper/Desktop/C++/opengl/src/vendor/stb_image/stb_image.cpp \
+ /home/daftylooper/Desktop/C++/daftycraft/src/vendor/stb_image/stb_image.cpp \
  /usr/include/stdc-predef.h \
- /home/daftylooper/Desktop/C++/opengl/src/vendor/stb_image/stb_image.h \
+ /home/daftylooper/Desktop/C++/daftycraft/src/vendor/stb_image/stb_image.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

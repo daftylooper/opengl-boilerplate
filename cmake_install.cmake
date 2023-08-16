@@ -1,4 +1,4 @@
-# Install script for directory: /home/daftylooper/Desktop/C++/opengl
+# Install script for directory: /home/daftylooper/Desktop/C++/daftycraft
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/daftylooper/Desktop/C++/opengl/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/daftylooper/Desktop/C++/daftycraft/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

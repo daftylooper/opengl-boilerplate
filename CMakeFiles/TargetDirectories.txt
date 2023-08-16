@@ -1,3 +1,3 @@
-/home/daftylooper/Desktop/C++/opengl/build/CMakeFiles/opengl_tutorial.dir
-/home/daftylooper/Desktop/C++/opengl/build/CMakeFiles/edit_cache.dir
-/home/daftylooper/Desktop/C++/opengl/build/CMakeFiles/rebuild_cache.dir
+/home/daftylooper/Desktop/C++/daftycraft/build/CMakeFiles/opengl_tutorial.dir
+/home/daftylooper/Desktop/C++/daftycraft/build/CMakeFiles/edit_cache.dir
+/home/daftylooper/Desktop/C++/daftycraft/build/CMakeFiles/rebuild_cache.dir

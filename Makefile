@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/daftylooper/Desktop/C++/opengl
+CMAKE_SOURCE_DIR = /home/daftylooper/Desktop/C++/daftycraft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/daftylooper/Desktop/C++/opengl/build
+CMAKE_BINARY_DIR = /home/daftylooper/Desktop/C++/daftycraft/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/daftylooper/Desktop/C++/opengl/build/CMakeFiles /home/daftylooper/Desktop/C++/opengl/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daftylooper/Desktop/C++/daftycraft/build/CMakeFiles /home/daftylooper/Desktop/C++/daftycraft/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/daftylooper/Desktop/C++/opengl/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daftylooper/Desktop/C++/daftycraft/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -224,6 +224,30 @@ src/Macros.s: src/Macros.cpp.s
 src/Macros.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl_tutorial.dir/build.make CMakeFiles/opengl_tutorial.dir/src/Macros.cpp.s
 .PHONY : src/Macros.cpp.s
+
+src/PerlinNoise.o: src/PerlinNoise.cpp.o
+.PHONY : src/PerlinNoise.o
+
+# target to build an object file
+src/PerlinNoise.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl_tutorial.dir/build.make CMakeFiles/opengl_tutorial.dir/src/PerlinNoise.cpp.o
+.PHONY : src/PerlinNoise.cpp.o
+
+src/PerlinNoise.i: src/PerlinNoise.cpp.i
+.PHONY : src/PerlinNoise.i
+
+# target to preprocess a source file
+src/PerlinNoise.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl_tutorial.dir/build.make CMakeFiles/opengl_tutorial.dir/src/PerlinNoise.cpp.i
+.PHONY : src/PerlinNoise.cpp.i
+
+src/PerlinNoise.s: src/PerlinNoise.cpp.s
+.PHONY : src/PerlinNoise.s
+
+# target to generate assembly for a file
+src/PerlinNoise.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl_tutorial.dir/build.make CMakeFiles/opengl_tutorial.dir/src/PerlinNoise.cpp.s
+.PHONY : src/PerlinNoise.cpp.s
 
 src/Renderer.o: src/Renderer.cpp.o
 .PHONY : src/Renderer.o
@@ -414,6 +438,9 @@ help:
 	@echo "... src/Macros.o"
 	@echo "... src/Macros.i"
 	@echo "... src/Macros.s"
+	@echo "... src/PerlinNoise.o"
+	@echo "... src/PerlinNoise.i"
+	@echo "... src/PerlinNoise.s"
 	@echo "... src/Renderer.o"
 	@echo "... src/Renderer.i"
 	@echo "... src/Renderer.s"

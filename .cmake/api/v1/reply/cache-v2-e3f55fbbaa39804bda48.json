@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/daftylooper/Desktop/C++/opengl/build"
+			"value" : "/home/daftylooper/Desktop/C++/daftycraft/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -155,11 +155,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/g++"
+			"value" : "/usr/bin/c++"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -283,11 +283,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C compiler"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc"
+			"value" : "/usr/bin/cc"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -591,7 +591,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/daftylooper/Desktop/C++/opengl"
+			"value" : "/home/daftylooper/Desktop/C++/daftycraft"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1254,22 +1254,6 @@
 			"value" : "/usr/lib/x86_64-linux-gnu/libEGL.so"
 		},
 		{
-			"name" : "OPENGL_gl_LIBRARY",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a library."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "/usr/lib/x86_64-linux-gnu/libGL.so"
-		},
-		{
 			"name" : "OPENGL_glu_LIBRARY",
 			"properties" : 
 			[
@@ -1343,7 +1327,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/daftylooper/Desktop/C++/opengl/build"
+			"value" : "/home/daftylooper/Desktop/C++/daftycraft/build"
 		},
 		{
 			"name" : "opengl_tutorial_IS_TOP_LEVEL",
@@ -1367,7 +1351,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/daftylooper/Desktop/C++/opengl"
+			"value" : "/home/daftylooper/Desktop/C++/daftycraft"
 		}
 	],
 	"kind" : "cache",

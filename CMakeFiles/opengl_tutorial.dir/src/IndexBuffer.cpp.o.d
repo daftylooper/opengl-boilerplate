@@ -1,8 +1,8 @@
 CMakeFiles/opengl_tutorial.dir/src/IndexBuffer.cpp.o: \
- /home/daftylooper/Desktop/C++/opengl/src/IndexBuffer.cpp \
+ /home/daftylooper/Desktop/C++/daftycraft/src/IndexBuffer.cpp \
  /usr/include/stdc-predef.h \
- /home/daftylooper/Desktop/C++/opengl/src/IndexBuffer.h \
- /home/daftylooper/Desktop/C++/opengl/src/Macros.h \
+ /home/daftylooper/Desktop/C++/daftycraft/src/IndexBuffer.h \
+ /home/daftylooper/Desktop/C++/daftycraft/src/Macros.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -132,7 +132,7 @@ CMakeFiles/opengl_tutorial.dir/src/IndexBuffer.cpp.o: \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc /usr/include/c++/11/cassert \
  /usr/include/assert.h \
- /home/daftylooper/Desktop/C++/opengl/src/../include/glad/glad.h \
+ /home/daftylooper/Desktop/C++/daftycraft/src/../include/glad/glad.h \
  /usr/include/KHR/khrplatform.h /usr/include/GLFW/glfw3.h \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/exception \
